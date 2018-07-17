@@ -26,8 +26,8 @@ Install graphene:
 git clone https://github.com/Lambda-3/Graphene.git
 cd Graphene
 touch conf/graphene.conf
-./install-DiscourseSimplification.sh
 ./install-SentenceSimplification.sh 
+./install-DiscourseSimplification.sh
 mvn clean install -DskipTests
 ```
 
